@@ -46,7 +46,7 @@ DOCX editabile:
 - testo ricostruito in paragrafi modificabili;
 - infografiche mantenute visivamente come immagini quando necessario;
 - illustrazioni inserite come immagini modificabili/sostituibili;
-- conversione LibreOffice verificata: 248 pagine circa, con possibile variazione minima di paginazione dovuta al motore Word/LibreOffice;
+- conversione LibreOffice verificata: **249 pagine** nella resa LibreOffice corrente, perché il DOCX può rifluire di una pagina rispetto al PDF ufficiale da 248; questa differenza non altera i contenuti;
 - SHA-256 DOCX: `72656094deb6fe25aefc809c56ddcbad338503cf07174e1656ca5ba1fa7b5572`.
 
 ## Regola per le prossime revisioni
