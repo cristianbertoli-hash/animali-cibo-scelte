@@ -31,32 +31,63 @@
       <p class="intro">Informazioni chiare e verificate su animali, alimentazione e ambiente. Scegli la tua lingua per entrare.</p>
 
       <div class="language-card" aria-label="Scelta della lingua">
-        <p class="language-title">Scegli la tua lingua</p>
-        <div class="language-grid">
-          <button class="language-button active" type="button" data-lang="it" aria-pressed="true">
-            <span class="flag" aria-hidden="true">🇮🇹</span>
-            <span><strong>Italiano</strong><small>Disponibile</small></span>
-          </button>
-          <button class="language-button" type="button" data-lang="en" aria-pressed="false">
-            <span class="flag" aria-hidden="true">🇬🇧</span>
-            <span><strong>English</strong><small>Coming soon</small></span>
-          </button>
-          <button class="language-button" type="button" data-lang="es" aria-pressed="false">
-            <span class="flag" aria-hidden="true">🇪🇸</span>
-            <span><strong>Español</strong><small>Próximamente</small></span>
-          </button>
-          <button class="language-button" type="button" data-lang="fr" aria-pressed="false">
-            <span class="flag" aria-hidden="true">🇫🇷</span>
-            <span><strong>Français</strong><small>Bientôt</small></span>
-          </button>
-          <button class="language-button" type="button" data-lang="de" aria-pressed="false">
-            <span class="flag" aria-hidden="true">🇩🇪</span>
-            <span><strong>Deutsch</strong><small>Demnächst</small></span>
-          </button>
-          <button class="language-button" type="button" data-lang="pt" aria-pressed="false">
-            <span class="flag" aria-hidden="true">🇵🇹</span>
-            <span><strong>Português</strong><small>Em breve</small></span>
-          </button>
+        <div class="language-heading-row">
+          <p class="language-title">Scegli la tua lingua</p>
+          <button class="language-more" id="toggle-languages" type="button" aria-expanded="false" aria-controls="language-browser">Tutte le lingue</button>
+        </div>
+
+        <div class="language-grid featured-languages" aria-label="Lingue principali">
+          <button class="language-button active" type="button" data-lang="it" data-label="Italiano" aria-pressed="true"><span class="flag" aria-hidden="true">🇮🇹</span><span><strong>Italiano</strong><small>Disponibile</small></span></button>
+          <button class="language-button" type="button" data-lang="en" data-label="English" aria-pressed="false"><span class="flag" aria-hidden="true">🇬🇧</span><span><strong>English</strong><small>Coming soon</small></span></button>
+          <button class="language-button" type="button" data-lang="es" data-label="Español" aria-pressed="false"><span class="flag" aria-hidden="true">🇪🇸</span><span><strong>Español</strong><small>Próximamente</small></span></button>
+          <button class="language-button" type="button" data-lang="fr" data-label="Français" aria-pressed="false"><span class="flag" aria-hidden="true">🇫🇷</span><span><strong>Français</strong><small>Bientôt</small></span></button>
+          <button class="language-button" type="button" data-lang="de" data-label="Deutsch" aria-pressed="false"><span class="flag" aria-hidden="true">🇩🇪</span><span><strong>Deutsch</strong><small>Demnächst</small></span></button>
+          <button class="language-button" type="button" data-lang="pt" data-label="Português" aria-pressed="false"><span class="flag" aria-hidden="true">🇵🇹</span><span><strong>Português</strong><small>Em breve</small></span></button>
+        </div>
+
+        <div class="language-browser" id="language-browser" hidden>
+          <label class="language-search-wrap" for="language-search">
+            <span>Trova la tua lingua</span>
+            <input id="language-search" type="search" autocomplete="off" placeholder="Cerca / Search / Buscar / Rechercher…">
+          </label>
+          <div class="language-all-grid" id="language-all-grid" aria-live="polite">
+            <button class="language-option" data-lang="it" data-label="Italiano" type="button">🇮🇹 <span>Italiano</span><small>Disponibile</small></button>
+            <button class="language-option" data-lang="en" data-label="English" type="button">🇬🇧 <span>English</span><small>Coming soon</small></button>
+            <button class="language-option" data-lang="es" data-label="Español" type="button">🇪🇸 <span>Español</span><small>Próximamente</small></button>
+            <button class="language-option" data-lang="fr" data-label="Français" type="button">🇫🇷 <span>Français</span><small>Bientôt</small></button>
+            <button class="language-option" data-lang="de" data-label="Deutsch" type="button">🇩🇪 <span>Deutsch</span><small>Demnächst</small></button>
+            <button class="language-option" data-lang="pt" data-label="Português" type="button">🇵🇹 <span>Português</span><small>Em breve</small></button>
+            <button class="language-option" data-lang="nl" data-label="Nederlands" type="button">🇳🇱 <span>Nederlands</span><small>Binnenkort</small></button>
+            <button class="language-option" data-lang="pl" data-label="Polski" type="button">🇵🇱 <span>Polski</span><small>Wkrótce</small></button>
+            <button class="language-option" data-lang="ro" data-label="Română" type="button">🇷🇴 <span>Română</span><small>În curând</small></button>
+            <button class="language-option" data-lang="cs" data-label="Čeština" type="button">🇨🇿 <span>Čeština</span><small>Již brzy</small></button>
+            <button class="language-option" data-lang="el" data-label="Ελληνικά" type="button">🇬🇷 <span>Ελληνικά</span><small>Σύντομα</small></button>
+            <button class="language-option" data-lang="tr" data-label="Türkçe" type="button">🇹🇷 <span>Türkçe</span><small>Yakında</small></button>
+            <button class="language-option" data-lang="uk" data-label="Українська" type="button">🇺🇦 <span>Українська</span><small>Незабаром</small></button>
+            <button class="language-option" data-lang="ru" data-label="Русский" type="button">🇷🇺 <span>Русский</span><small>Скоро</small></button>
+            <button class="language-option" data-lang="ar" data-label="العربية" type="button">🇸🇦 <span dir="rtl">العربية</span><small>قريبًا</small></button>
+            <button class="language-option" data-lang="he" data-label="עברית" type="button">🇮🇱 <span dir="rtl">עברית</span><small>בקרוב</small></button>
+            <button class="language-option" data-lang="hi" data-label="हिन्दी" type="button">🇮🇳 <span>हिन्दी</span><small>जल्द आ रहा है</small></button>
+            <button class="language-option" data-lang="bn" data-label="বাংলা" type="button">🇧🇩 <span>বাংলা</span><small>শীঘ্রই</small></button>
+            <button class="language-option" data-lang="zh" data-label="中文" type="button">🇨🇳 <span>中文</span><small>即将推出</small></button>
+            <button class="language-option" data-lang="ja" data-label="日本語" type="button">🇯🇵 <span>日本語</span><small>近日公開</small></button>
+            <button class="language-option" data-lang="ko" data-label="한국어" type="button">🇰🇷 <span>한국어</span><small>곧 출시</small></button>
+            <button class="language-option" data-lang="id" data-label="Bahasa Indonesia" type="button">🇮🇩 <span>Bahasa Indonesia</span><small>Segera hadir</small></button>
+            <button class="language-option" data-lang="ms" data-label="Bahasa Melayu" type="button">🇲🇾 <span>Bahasa Melayu</span><small>Akan datang</small></button>
+            <button class="language-option" data-lang="th" data-label="ไทย" type="button">🇹🇭 <span>ไทย</span><small>เร็ว ๆ นี้</small></button>
+            <button class="language-option" data-lang="vi" data-label="Tiếng Việt" type="button">🇻🇳 <span>Tiếng Việt</span><small>Sắp có</small></button>
+            <button class="language-option" data-lang="sv" data-label="Svenska" type="button">🇸🇪 <span>Svenska</span><small>Kommer snart</small></button>
+            <button class="language-option" data-lang="no" data-label="Norsk" type="button">🇳🇴 <span>Norsk</span><small>Kommer snart</small></button>
+            <button class="language-option" data-lang="da" data-label="Dansk" type="button">🇩🇰 <span>Dansk</span><small>Kommer snart</small></button>
+            <button class="language-option" data-lang="fi" data-label="Suomi" type="button">🇫🇮 <span>Suomi</span><small>Tulossa pian</small></button>
+            <button class="language-option" data-lang="hu" data-label="Magyar" type="button">🇭🇺 <span>Magyar</span><small>Hamarosan</small></button>
+            <button class="language-option" data-lang="bg" data-label="Български" type="button">🇧🇬 <span>Български</span><small>Очаквайте скоро</small></button>
+            <button class="language-option" data-lang="hr" data-label="Hrvatski" type="button">🇭🇷 <span>Hrvatski</span><small>Uskoro</small></button>
+            <button class="language-option" data-lang="sk" data-label="Slovenčina" type="button">🇸🇰 <span>Slovenčina</span><small>Už čoskoro</small></button>
+            <button class="language-option" data-lang="sl" data-label="Slovenščina" type="button">🇸🇮 <span>Slovenščina</span><small>Kmalu</small></button>
+            <button class="language-option" data-lang="ca" data-label="Català" type="button">🏴 <span>Català</span><small>Properament</small></button>
+          </div>
+          <p class="language-empty" id="language-empty" hidden>Nessuna lingua trovata.</p>
         </div>
       </div>
 
@@ -71,28 +102,16 @@
 
   <section class="section" id="about">
     <div class="section-inner two-columns">
-      <div>
-        <p class="eyebrow dark">Il progetto</p>
-        <h2>Un opuscolo breve, leggibile e aggiornabile.</h2>
-      </div>
-      <div class="body-copy">
-        <p><strong>Animali, cibo e scelte</strong> nasce per spiegare in modo semplice che cosa sappiamo oggi sul benessere animale, sull’impatto ambientale del cibo e su come costruire un’alimentazione vegetale consapevole.</p>
-        <p>Le affermazioni scientifiche vengono controllate su fonti autorevoli e aggiornate. Le domande etiche restano chiaramente distinte dai dati scientifici.</p>
-      </div>
+      <div><p class="eyebrow dark">Il progetto</p><h2>Un opuscolo breve, leggibile e aggiornabile.</h2></div>
+      <div class="body-copy"><p><strong>Animali, cibo e scelte</strong> nasce per spiegare in modo semplice che cosa sappiamo oggi sul benessere animale, sull’impatto ambientale del cibo e su come costruire un’alimentazione vegetale consapevole.</p><p>Le affermazioni scientifiche vengono controllate su fonti autorevoli e aggiornate. Le domande etiche restano chiaramente distinte dai dati scientifici.</p></div>
     </div>
   </section>
 
   <section class="section section-soft" id="downloads">
     <div class="section-inner">
-      <p class="eyebrow dark">Download</p>
-      <h2>Le versioni del libretto</h2>
+      <p class="eyebrow dark">Download</p><h2>Le versioni del libretto</h2>
       <div class="download-grid">
-        <article class="download-card featured">
-          <span class="download-flag">🇮🇹</span>
-          <h3>Italiano</h3>
-          <p>Versione master 2026.1 in preparazione.</p>
-          <span class="status-pill">PDF in arrivo</span>
-        </article>
+        <article class="download-card featured"><span class="download-flag">🇮🇹</span><h3>Italiano</h3><p>Versione master 2026.1 in preparazione.</p><span class="status-pill">PDF in arrivo</span></article>
         <article class="download-card"><span class="download-flag">🇬🇧</span><h3>English</h3><p>Traduzione successiva al master italiano.</p><span class="status-pill muted">Coming soon</span></article>
         <article class="download-card"><span class="download-flag">🇪🇸</span><h3>Español</h3><p>Traduzione successiva al master italiano.</p><span class="status-pill muted">Próximamente</span></article>
         <article class="download-card"><span class="download-flag">🇫🇷</span><h3>Français</h3><p>Traduzione successiva al master italiano.</p><span class="status-pill muted">Bientôt</span></article>
@@ -102,29 +121,12 @@
 
   <section class="section" id="sources">
     <div class="section-inner two-columns">
-      <div>
-        <p class="eyebrow dark">Trasparenza</p>
-        <h2>Fonti scientifiche consultabili.</h2>
-      </div>
-      <div class="body-copy">
-        <p>La bibliografia completa sarà pubblicata insieme al PDF e mantenuta aggiornata online. Le fonti principali comprendono organismi come EFSA, FAO, WHO, WOAH, ESPGHAN e IARC, oltre a studi scientifici peer-reviewed.</p>
-        <p>In questo modo il libretto potrà essere aggiornato quando cambiano dati, norme o conoscenze, senza perdere il collegamento pubblico già condiviso.</p>
-      </div>
+      <div><p class="eyebrow dark">Trasparenza</p><h2>Fonti scientifiche consultabili.</h2></div>
+      <div class="body-copy"><p>La bibliografia completa sarà pubblicata insieme al PDF e mantenuta aggiornata online. Le fonti principali comprendono organismi come EFSA, FAO, WHO, WOAH, ESPGHAN e IARC, oltre a studi scientifici peer-reviewed.</p><p>In questo modo il libretto potrà essere aggiornato quando cambiano dati, norme o conoscenze, senza perdere il collegamento pubblico già condiviso.</p></div>
     </div>
   </section>
 
-  <footer class="footer">
-    <div>
-      <strong>Animali, cibo e scelte</strong>
-      <span>Informazioni scientifiche aggiornate al 2026.</span>
-    </div>
-    <div class="footer-links">
-      <a href="#home">Home</a>
-      <a href="#downloads">Download</a>
-      <a href="#sources">Fonti</a>
-    </div>
-  </footer>
-
+  <footer class="footer"><div><strong>Animali, cibo e scelte</strong><span>Informazioni scientifiche aggiornate al 2026.</span></div><div class="footer-links"><a href="#home">Home</a><a href="#downloads">Download</a><a href="#sources">Fonti</a></div></footer>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <script src="script.js"></script>
 </body>
