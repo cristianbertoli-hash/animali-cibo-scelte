@@ -29,7 +29,7 @@
     const lang = button.dataset.lang;
     const label = button.dataset.label || button.querySelector('span')?.textContent || 'Questa lingua';
     return lang === 'it'
-      ? 'Italiano selezionato. Il PDF sarà disponibile qui appena pubblicato.'
+      ? 'Italiano selezionato. Il manuale 2026.1 è pronto; il download sul sito è in pubblicazione.'
       : `${label}: versione in preparazione.`;
   };
 
@@ -78,7 +78,7 @@
     download.addEventListener('click', (event) => {
       if (download.classList.contains('is-disabled')) {
         event.preventDefault();
-        showToast('Il PDF italiano è in preparazione. Il pulsante sarà attivato senza cambiare questo indirizzo.');
+        showToast('Il manuale italiano è pronto. Il pulsante verrà attivato appena il PDF sarà caricato sul sito.');
       }
     });
   }
