@@ -2,34 +2,36 @@
 
 Sito pubblico del progetto editoriale **Animali, cibo e scelte — Capire per scegliere**.
 
-## Stato attuale
+## Stato attuale — 5 settembre 2026
 
 - landing page responsive: pronta
 - GitHub Pages: attivo
 - selettore lingue: 6 principali + elenco esteso ricercabile
 - italiano: lingua master
 - altre lingue: predisposte e indicate come in arrivo
-- sezione download: pronta, PDF non ancora collegato
+- progetto ora presentato come **manuale illustrato**, non più come opuscolo/libretto
+- manuale italiano: **72 pagine A5, Edizione 2026.1, completato e verificato**
+- target: 10+ anni, soprattutto 10–16, leggibile anche da adolescenti più grandi e adulti
+- contenuti: animali e sentienza, allevamenti, pesca, terra, acqua, energia, trasporti, refrigerazione, imballaggi, spreco, clima, biodiversità, antibiotico-resistenza, salute, nutrizione vegetale e pensiero critico
+- versione pubblica PDF: apertura libera, stampa libera, accessibilità consentita, modifica/assemblaggio limitati con AES-128 compatibile con macOS Big Sur Preview
+- master stampa: separato e non cifrato, predisposto per una futura valutazione print-on-demand/KDP
+- sezione download: pronta; caricamento del nuovo PDF sul sito ancora da eseguire
 - sezione fonti: pronta
 - sezione “Sostieni il progetto”: pronta, modalità di sostegno non ancora scelta
-- uso del PDF: stampa e condivisione integrale gratuite previste; modifica/alterazione/assemblaggio da limitare nella copia ufficiale
-- immagini hero: 3 slot predisposti (`assets/hero-1.jpg`, `hero-2.jpg`, `hero-3.jpg`), file reali non ancora caricati
-- testo PDF master v0.2: presente
-- storyboard 20 pagine: presente
-- bibliografia sintetica: integrata nel master v0.2, da rifinire prima del freeze finale
-- illustrazioni PDF: non ancora generate
-- PDF italiano 2026.1: non ancora impaginato
+- immagini/scene interne del manuale: vettoriali originali e coerenti con l’identità grafica approvata
+- immagini hero del sito: 3 slot predisposti (`assets/hero-1.jpg`, `hero-2.jpg`, `hero-3.jpg`), file reali non ancora caricati
 
-## Scheda Madre
+## Scheda Madre e documentazione
 
-La fonte di verità del progetto è:
+La fonte di verità del progetto comprende:
 
 - `docs/SCHEDA_MADRE_PROGETTO.md`
 - `docs/CHECKPOINT_GLOBALE_2026-09-05.md`
-- `docs/PDF_MASTER_V0.2.md`
-- `docs/STORYBOARD_20_PAGINE.md`
+- `docs/BIBLIOGRAFIA_MASTER_2026.md`
+- `docs/superpowers/specs/2026-09-05-manuale-esteso-72p-design.md`
+- `docs/superpowers/plans/2026-09-05-manuale-esteso-72p.md`
 
-Questi documenti consolidano target, struttura del PDF, fact-check 2026, diritti, protezione PDF, sito, multilingua, sostegno, testo e storyboard.
+I precedenti file da 20 pagine restano come cronologia editoriale, ma la direzione corrente ufficiale è il manuale da 72 pagine.
 
 ## Pubblicazione
 
@@ -37,7 +39,7 @@ Il sito è pubblicato tramite GitHub Pages dalla root del branch `main`.
 
 ## Sicurezza del progetto
 
-Questo repository è dedicato esclusivamente al sito pubblico e ai materiali destinati alla pubblicazione. Non contiene file personali e non deve modificare o dipendere dagli altri repository dell'account.
+Questo repository è dedicato esclusivamente al sito pubblico e ai materiali destinati alla pubblicazione. Non contiene file personali e non deve modificare o dipendere dagli altri repository dell'account. Password proprietario del PDF e altri segreti non devono mai essere salvati nel repository pubblico.
 
 ## Struttura
 
@@ -46,17 +48,14 @@ Questo repository è dedicato esclusivamente al sito pubblico e ai materiali des
 - `project.css` — stili specifici del progetto, diritti e sostegno
 - `script.js` — scelta lingua, ricerca, messaggi e dissolvenza immagini
 - `tests/` — controlli di regressione del sito
-- `docs/` — Scheda Madre, checkpoint, master PDF e storyboard
-- `assets/` — immagini e PDF pubblici quando saranno pronti
+- `docs/` — Scheda Madre, fonti, specifiche e piani
+- `assets/` — immagini e PDF pubblici quando vengono pubblicati
 
 ## Prossimi passi
 
-1. micro-revisione finale testo e bibliografia
-2. specifiche tecniche delle 13 composizioni illustrate
-3. generazione illustrazioni originali
-4. impaginazione PDF 20 pagine
-5. verifica accessibilità/stampa
-6. protezione PDF con owner password
-7. hash SHA-256 e pubblicazione
-8. collegamento download
-9. SEO, dominio e traduzioni progressive
+1. caricare il manuale PDF pubblico nel sito e attivare il download
+2. pubblicare hash SHA-256 e bibliografia online estesa
+3. scegliere e inserire 2–3 foto hero originali
+4. completare SEO, sitemap, canonical e dominio personalizzato
+5. valutare una versione cartacea Amazon KDP mantenendo gratuito il PDF digitale
+6. avviare le traduzioni progressive
