@@ -1,171 +1,197 @@
 # SCHEDA MADRE — ANIMALI, CIBO E SCELTE
 
-**Checkpoint:** 2026-09-05
-**Edizione master prevista:** 2026.1
-**Repository pubblico:** `cristianbertoli-hash/animali-cibo-scelte`
-**Sito attuale:** GitHub Pages, branch `main`, root `/`
+**Checkpoint:** 2026-09-05  
+**Edizione corrente:** 2026.1  
+**Repository pubblico:** `cristianbertoli-hash/animali-cibo-scelte`  
+**Sito:** GitHub Pages, branch `main`, root `/`
 
 ## 1. Identità del progetto
 
-Titolo di lavoro approvato: **Animali, cibo e scelte**  
+Titolo: **Animali, cibo e scelte**  
 Sottotitolo: **Capire per scegliere**
 
-Progetto editoriale indipendente, illustrato e multilingue, pensato per spiegare in modo chiaro e verificabile il rapporto tra animali, alimentazione, ambiente e scelte individuali.
+Progetto editoriale indipendente, illustrato e multilingue sul rapporto tra animali, alimentazione, ambiente, salute, risorse e scelte individuali.
 
 ### Pubblico
 
-Target principale: **10–16 anni**.  
-Il linguaggio deve essere abbastanza semplice per un lettore giovane ma non infantile, e abbastanza solido da restare interessante anche per adolescenti più grandi, genitori, insegnanti ed educatori.
+Target editoriale: **10+ fino all'adulto**.  
+Il testo deve essere comprensibile a un ragazzo di 10–16 anni senza risultare infantile e deve restare interessante e credibile per lettori adulti.
+
+### Tono
+
+Mix approvato di:
+- divulgazione narrativa;
+- approfondimento scientifico;
+- strumenti pratici;
+- schemi e infografiche;
+- esempi quotidiani.
+
+Il manuale non deve avere tono propagandistico. Vegetarianesimo e riduzione dei prodotti animali sono presentati come valide porte d'ingresso; il veganismo come opzione più estesa che richiede pianificazione nutrizionale.
 
 ## 2. Principi editoriali vincolanti
 
-- Testo nuovo da zero: non è una semplice revisione del vecchio opuscolo.
-- Fatti scientifici supportati da fonti autorevoli e, quando possibile, primarie.
-- Posizioni etiche dichiarate come tali, senza confonderle con dati scientifici.
-- Evitare formulazioni assolute come `tutti`, `mai`, `sempre`, `nessuno` quando non siano realmente universali.
-- Evitare argomenti pseudoevolutivi come “l'essere umano è erbivoro”.
-- Evitare slogan non sostenuti come “se tutti fossero vegani sparirebbe la fame”.
-- Non presentare automaticamente ogni alimento vegetale come salutare.
-- B12 sempre esplicitata nelle diete vegane.
-- Per l'età pediatrica usare un'impostazione prudente: pianificazione, integrazione e monitoraggio.
-- Le illustrazioni devono essere originali e create appositamente per il progetto; non copiare le immagini dei vecchi opuscoli.
-- Progettazione grafica compatibile con future traduzioni: lasciare margine di espansione del testo e non incorporare testo importante dentro le immagini.
+- Testi originali: i PDF caricati servono come materiale di partenza, non come testo da copiare.
+- Dati scientifici verificati su fonti autorevoli e aggiornati al 2026.
+- Posizioni etiche dichiarate come tali e distinte dai dati scientifici.
+- Evitare assoluti non dimostrati, slogan e causalità semplicistiche.
+- Non usare l'argomento “l'essere umano è erbivoro”.
+- Non affermare che vegan = automaticamente sano.
+- B12 sempre esplicita nelle diete vegane.
+- In età pediatrica: pianificazione, integrazione specifica e monitoraggio.
+- In salute distinguere associazione, rischio, causalità e qualità complessiva della dieta.
+- In ambiente distinguere medie globali, contesti locali e metodi di calcolo.
+- Per l'acqua spiegare impronta verde, blu e grigia e acqua virtuale.
+- Immagini e schemi originali, maturi, coerenti e non infantili.
+- Nessun testo importante incorporato in immagini raster, per agevolare traduzioni.
 
-## 3. Struttura definitiva prevista — 20 pagine totali
+## 3. Struttura editoriale ufficiale — 111 pagine A5
 
-1. Copertina.
-2. Interno copertina / introduzione e data di revisione.
-3. Da dove arriva quello che mangiamo?
-4–5. Animali diversi, esperienze reali: dolore, paura, stress, relazioni e comportamento.
-6–7. Come vivono gli animali negli allevamenti? Suini, polli da carne, galline ovaiole, bovini; esplicitare che non tutti gli allevamenti sono uguali.
-8–9. Latte, uova, madri e piccoli: contatto vacca-vitello, produzione di uova, pulcini maschi, quadro normativo italiano aggiornato.
-10–11. Trasporto e macellazione; ruolo e limiti dello stordimento.
-12–13. Pesci, pesca e acquacoltura; sentienza, catture accessorie, stato degli stock.
-14–15. Cibo, suolo, mangimi, cereali, soia, clima, acqua e biodiversità.
-16–17. Mangiare vegetale: gruppi alimentari, principi WHO, B12 e nutrienti critici, dieta vegana in età pediatrica.
-18. Cosa posso fare io? Scelte pratiche e alfabetizzazione mediatica.
-19. Cosa significa vegan? + riferimenti principali + QR alla bibliografia online completa.
-20. Retro copertina con frase: **“Conoscere è il primo passo per poter scegliere.”**
+1. **Pagine 1–9 — Capire prima di scegliere**: sistema alimentare, sentienza, scienza ed etica, come leggere dati e fonti.
+2. **Pagine 10–27 — Animali e sistemi produttivi**: suini, polli, galline, bovini, latte, uova, madri e piccoli, trasporto, macellazione, pesci, pesca e acquacoltura.
+3. **Pagine 28–45 — Costo ambientale del cibo**: suolo, mangimi, cereali, soia, deforestazione, biodiversità, clima, energia, refrigerazione, trasporti, imballaggi, deiezioni, eutrofizzazione.
+4. **Pagine 46–53 — Acqua**: impronta idrica, acqua verde/blu/grigia, scarsità locale, acqua virtuale e limiti dei confronti semplicistici.
+5. **Pagine 54–63 — Cibo, spreco e risorse**: perdite di filiera, spreco domestico, efficienza, sicurezza alimentare e fame come fenomeno multifattoriale.
+6. **Pagine 64–79 — Salute e nutrizione**: modelli onnivoro/vegetariano/vegano, salute cardiovascolare, diabete tipo 2, tumore colorettale, peso, ultraprocessati, proteine, ferro, calcio, iodio, vitamina D, omega-3 e B12.
+7. **Pagine 80–87 — Crescita, adolescenza, sport e fasi della vita**: energia, recupero, crescita, socialità e pianificazione.
+8. **Pagine 88–95 — Passare a più vegetale**: metodo Aggiungi/Sostituisci/Impara, spesa, etichette, piatti tradizionali e sostituzioni.
+9. **Pagine 96–101 — Cucina pratica**: preparazioni rappresentative, familiari e semplici, ispirate ai materiali caricati ma riscritte da zero.
+10. **Pagine 102–105 — Scuola e mensa**: procedura pratica, comunicazione con scuola/comune e pagina fotocopiabile con fac-simile.
+11. **Pagine 106–109 — Domande, miti e pensiero critico**.
+12. **Pagina 110 — Fonti, metodo e siti di riferimento**.
+13. **Pagina 111 — Chiusura, sito, versione, sostegno e diritti**.
 
-## 4. Stato scientifico 2026
+## 4. Materiali caricati integrati come base editoriale
 
-Fact-check principale completato. Punti consolidati:
+- opuscolo per bambini: animali, allevamenti, pesci, latte e uova;
+- manuale mense SSNV 2022: iter pratico, richiesta scritta e socialità scolastica;
+- opuscolo sport: temi nutrizionali e sportivi, da aggiornare;
+- pieghevole ambientale: radar per suolo, foreste, deiezioni, pesca e risorse, ma numeri storici non riutilizzati automaticamente;
+- VSK / alimentazione vegetale: transizione graduale, ASI, gruppi alimentari, B12;
+- ricettari: repertorio per trasformare piatti tradizionali, tofu, seitan, legumi, finger food e dolci;
+- Water Footprint Assessment Manual: acqua verde/blu/grigia, acqua virtuale e metodo;
+- Trappole alimentari: radar bibliografico e spunti, non autorità finale.
 
-- Riconoscimento della sentienza animale e welfare: UE, EFSA, WOAH.
-- Suini: conseguenze di welfare rilevanti documentate da EFSA.
-- Polli da carne e galline ovaiole: densità, arricchimenti, mutilazioni e sistemi di allevamento aggiornati con EFSA e normativa UE.
-- Vitelli e bovine da latte: separazione, contatto madre-piccolo, zoppie, mastiti e altri indicatori welfare con EFSA.
-- Trasporto e macellazione: riferimenti WOAH; non affermare che tutti i sistemi usano stordimento.
-- Pesci: forte evidenza scientifica a favore della sentienza e capacità di provare dolore/stress/paura, con necessaria cautela nelle generalizzazioni tra specie.
-- Pesca: usare dati FAO aggiornati, evitando slogan apocalittici obsoleti.
-- Pulcini maschi in Italia: il divieto previsto entra in vigore dal **31 dicembre 2026**, con eccezioni previste dalla legge; non presentarlo come già pienamente operativo prima di quella data.
-- Mangimi: evitare il vecchio numero universale “15 kg di mangime per 1 kg di carne”.
-- Suolo: formulazione divulgativa consigliata “circa tre quarti della superficie agricola mondiale” per allevamenti e mangimi, con fonte adeguata.
-- Cereali: FAO 2023, circa 35% destinati a mangimi animali.
-- Soia: mantenere il concetto che gran parte della produzione globale è destinata alla zootecnia, ma usare numeri solo con fonte esplicita.
-- Impatto ambientale: Nature Food 2023 / Scarborough et al. come riferimento forte; evitare di sovraccaricare i ragazzi con percentuali.
-- Fame: trattare come problema multifattoriale, non come conseguenza risolvibile con una sola scelta alimentare.
-- Nutrizione: WHO Healthy Diet 2026; ESPGHAN 2025 per dieta vegana in età pediatrica.
+## 5. Stato scientifico 2026
 
-### Bibliografia master da consolidare
+Punti consolidati:
+- welfare e sentienza: UE, EFSA, WOAH;
+- pigs EFSA 2022; broilers/laying hens, calves, dairy cows EFSA 2023;
+- macellazione WOAH cap. 7.5 aggiornato 2024;
+- pesci: Lambert et al. 2022 + review WOAH 2026, con cautela fra specie;
+- stock ittici FAO 2025: 64,5% entro livelli biologicamente sostenibili, 35,5% sovrasfruttati;
+- pulcini maschi Italia: divieto previsto dal 31 dicembre 2026 con eccezioni;
+- cereali: circa 35% destinati a mangimi animali nel 2023 secondo FAO;
+- impatti dieta: Scarborough et al., Nature Food 2023;
+- fame e accesso a una dieta sana: trattati come problemi multifattoriali;
+- nutrizione: WHO Healthy Diet 2026;
+- età pediatrica vegana: ESPGHAN 2025, approccio prudente con B12 e monitoraggio.
 
-EFSA 2022–2023; WOAH 2024 e review pesci 2026; FAO stock ittici 2025; FAO Food Balance Sheets 2010–2023; Scarborough et al., *Nature Food* 2023; WHO Healthy Diet 2026; ESPGHAN Nutrition Committee 2025; normativa italiana D.Lgs. 205/2023 e decreto attuativo successivo per pulcini maschi.
+## 6. Mense scolastiche
 
-## 5. PDF — politica di distribuzione e protezione
+La sezione pratica usa il manuale SSNV 2022 come base operativa ma il quadro normativo viene ricondotto alle fonti ufficiali nazionali. Il riferimento centrale è il DM 28 ottobre 2021 / GU n.269 dell'11 novembre 2021 sulle linee di indirizzo nazionali per la ristorazione scolastica. La prescrizione medica riguarda le esigenze cliniche e non le diete per fini etici/culturali/religiosi.
 
-Obiettivo: massima diffusione della copia ufficiale, ma ridurre modifiche e versioni alterate.
+Il manuale contiene una **pagina fotocopiabile autonoma** con fac-simile di richiesta, campi compilabili e checklist.
 
-Configurazione prevista:
+## 7. Grafica
 
-- apertura libera, **nessuna password utente**;
+- Formato A5 verticale.
+- Identità verde/crema/terra con blu e accenti caldi controllati.
+- Corpo testo compatto ma leggibile, circa 8,8 pt nel master corrente.
+- Scene vettoriali editoriali mature e infografiche pulite.
+- Ambienti: campagna, colture, stalle, silos, acqua, pesca, trasporti, città, scuola, cucina, tavola.
+- Niente estetica da libro per bambini delle elementari.
+
+## 8. PDF — distribuzione e protezione
+
+### Copia pubblica
+- 111 pagine A5;
+- apertura libera senza password utente;
 - stampa libera;
-- lettura e accessibilità / screen reader consentite;
-- download e condivisione integrale consentiti;
-- modifica del contenuto, alterazione e assemblaggio delle pagine limitati con **owner password**;
-- numero di edizione chiaramente visibile;
-- sito ufficiale e QR nel documento;
-- hash SHA-256 della copia ufficiale pubblicabile sul sito;
-- formulazione diritti proprietaria, non CC0;
-- possibilità di stampa e distribuzione gratuita integrale per famiglie, scuole, biblioteche, associazioni e finalità educative/informative non commerciali;
-- nessuna redistribuzione di versioni modificate o uso commerciale senza autorizzazione.
+- accessibilità / estrazione testo consentita;
+- modifica e assemblaggio limitati;
+- AES-128, scelta per compatibilità con Anteprima su macOS Big Sur;
+- owner password privata e mai salvata nel repository pubblico.
+
+### Master stampa
+- 111 pagine A5;
+- non cifrato;
+- da mantenere privato;
+- base per eventuale preflight Amazon KDP / tipografia.
+
+### Identificazione
+- Edizione ufficiale 2026.1;
+- SHA-256 della copia pubblica corrente: `6126c5254df948b73a628b75341f3617504ec23e2aa26e238d450e122dadc91e`.
+
+## 9. Distribuzione e diritti
+
+Obiettivo: massima diffusione della copia ufficiale senza favorire versioni alterate.
+
+- download gratuito;
+- stampa gratuita;
+- condivisione integrale e senza modifiche per finalità personali, educative e informative non commerciali;
+- nessuna redistribuzione di versioni modificate o uso commerciale senza autorizzazione;
+- futura copia cartacea a pagamento possibile, mantenendo gratuito il PDF digitale.
 
 Formula editoriale di riferimento:
 
 > © 2026 Animali, cibo e scelte — Cristian Bertoli. Questo documento può essere scaricato, stampato e condiviso gratuitamente, integralmente e senza modifiche, per finalità personali, educative e informative non commerciali. Non è consentito modificare, alterare, estrarre e redistribuire parti del documento, creare versioni derivate o utilizzarlo a fini commerciali senza autorizzazione.
 
-La formulazione legale definitiva andrà ricontrollata prima della pubblicazione finale.
+La formulazione legale definitiva può essere ricontrollata prima della distribuzione commerciale.
 
-## 6. Donazioni / sostegno
+## 10. Sostegno al progetto
 
-Il PDF deve restare gratuito. Il sito può contenere una sezione discreta **“Sostieni il progetto”**.
+Il PDF digitale resta gratuito. Il sito contiene la sezione **Sostieni il progetto**. Eventuali contributi possono finanziare traduzioni, aggiornamenti scientifici, dominio, infrastruttura e nuove pubblicazioni. La piattaforma di pagamento non è ancora scelta.
 
-Testo guida:
+## 11. Siti di riferimento nel manuale — massimo 4
 
-> Questo progetto è indipendente e gratuito. Se vuoi contribuire alle traduzioni, agli aggiornamenti scientifici, al dominio e allo sviluppo di nuove pubblicazioni, puoi sostenerlo con una donazione libera.
+1. WHO — salute e alimentazione.
+2. EFSA — benessere animale e sicurezza alimentare.
+3. FAO — sistemi alimentari, pesca, risorse e sicurezza alimentare.
+4. Società Scientifica di Nutrizione Vegetariana — nutrizione vegetariana e vegana.
 
-Nel PDF: solo richiamo discreto nell'ultima pagina, senza interrompere i contenuti.
+## 12. Sito web
 
-La piattaforma/modalità di pagamento non è ancora scelta e non va inventata.
+Stato:
+- GitHub Pages attivo;
+- home responsive;
+- 6 lingue principali + elenco esteso ricercabile;
+- sito aggiornato alla descrizione del **manuale da 111 pagine**;
+- sezione download predisposta;
+- sezione fonti e sostegno presenti;
+- PDF non ancora caricato nel repository pubblico;
+- 3 slot hero predisposti, immagini originali non ancora inserite.
 
-## 7. Sito web
+Sviluppi successivi:
+- caricare PDF pubblico e attivare download;
+- pubblicare hash e bibliografia estesa;
+- foto hero;
+- dominio personalizzato;
+- SEO, sitemap, canonical, dati strutturati e Search Console;
+- traduzioni progressive;
+- preflight KDP e valutazione prezzo della copia cartacea.
 
-### Stato
+## 13. QA del manuale 111
 
-- Repository dedicato e separato dagli altri progetti.
-- GitHub Pages attivato.
-- Home responsive per telefono, tablet e desktop.
-- Scelta lingua presente.
-- 6 lingue principali subito visibili.
-- Pannello “Tutte le lingue” con ricerca e circa 35 lingue predisposte.
-- Italiano attivo; altre lingue indicate come in arrivo.
-- Sezione download predisposta.
-- Sezione fonti presente.
-- Sezione sostegno presente.
-- Slot per tre immagini hero: `assets/hero-1.jpg`, `assets/hero-2.jpg`, `assets/hero-3.jpg` con dissolvenza automatica.
-- Foto hero reali non ancora caricate.
-- PDF non ancora collegato.
+Verifiche eseguite sul master corrente:
+- 111/111 pagine A5;
+- font incorporati;
+- 6 test strutturali passati;
+- rendering completo delle 111 pagine;
+- confronto master stampa vs copia protetta: 111 pagine confrontate, 0 pagine graficamente differenti;
+- nessuna pagina quasi vuota rilevata;
+- testo estraibile dalla copia pubblica;
+- circa 18.391 parole nel PDF estratto.
 
-### Sviluppo futuro
+## 14. Regola di sicurezza del repository
 
-- dominio personalizzato per nascondere il percorso `github.io`;
-- scelta e inserimento di 2–3 fotografie originali dell'autore per la home;
-- SEO serio: contenuti testuali tematici, titoli/descriptions, sitemap, canonical sul dominio definitivo, dati strutturati, alt text, Search Console e verifica indicizzazione;
-- compatibilità browser e accessibilità internazionale;
-- pagine linguistiche reali man mano che le traduzioni vengono completate;
-- bibliografia online estesa;
-- download diretto della copia PDF ufficiale.
+Il repository `animali-cibo-scelte` contiene solo materiali pubblicabili del progetto. Non modificare né usare `braincore`, `whisper-locale-android` o altri repository per questa pubblicazione. Password proprietario, chiavi e segreti non devono essere salvati nel repository pubblico.
 
-## 8. Workflow operativo
+## 15. Fonte di verità
 
-Ordine di lavoro corrente:
+La direzione ufficiale è ora il **manuale da 111 pagine**. I precedenti progetti da 20 e 72 pagine restano solo come cronologia editoriale.
 
-1. Chiudere testo master v0.2 pagina per pagina.
-2. Chiudere bibliografia numerata.
-3. Chiudere storyboard delle 20 pagine.
-4. Definire le specifiche di ogni illustrazione.
-5. Generare le illustrazioni originali.
-6. Impaginare il PDF.
-7. Verificare accessibilità, leggibilità e stampa.
-8. Applicare protezioni PDF e owner password.
-9. Calcolare hash SHA-256.
-10. Pubblicare PDF e collegarlo al sito.
-11. Completare SEO e dominio.
-12. Avviare traduzioni.
-
-## 9. Regola di sicurezza del repository
-
-Questo repository deve contenere **solo materiali pubblicabili di questo progetto**. Non modificare e non usare i repository `braincore`, `whisper-locale-android` o altri progetti per questa pubblicazione.
-
-## 10. Stato sintetico al checkpoint 2026-09-05
-
-- Concept e target: VERDE.
-- Fact-check scientifico: VERDE.
-- Struttura 20 pagine: VERDE.
-- Testo master: avanzato, da chiudere in versione impaginabile.
-- Bibliografia: avanzata, da numerare e congelare.
-- Storyboard: da chiudere.
-- Illustrazioni: non ancora generate.
-- PDF finale: non ancora generato.
-- Sito pubblico: attivo e in evoluzione.
-- Foto hero: ancora da inserire.
-- Modalità donazioni: non ancora scelta.
+Documenti correnti:
+- `docs/SCHEDA_MADRE_PROGETTO.md`
+- `docs/BIBLIOGRAFIA_MASTER_2026.md`
+- `docs/superpowers/specs/2026-09-05-manuale-111-design.md`
+- `docs/superpowers/plans/2026-09-05-manuale-111-plan.md`
