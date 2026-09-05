@@ -44,21 +44,70 @@ Il manuale non deve avere tono propagandistico. Vegetarianesimo e riduzione dei 
 - Immagini e schemi originali, maturi, coerenti e non infantili.
 - Nessun testo importante incorporato in immagini raster, per agevolare traduzioni.
 
-## 3. Struttura editoriale ufficiale — 111 pagine A5
+## 3. Versioni editoriali
 
-1. **Pagine 1–9 — Capire prima di scegliere**: sistema alimentare, sentienza, scienza ed etica, come leggere dati e fonti.
-2. **Pagine 10–27 — Animali e sistemi produttivi**: suini, polli, galline, bovini, latte, uova, madri e piccoli, trasporto, macellazione, pesci, pesca e acquacoltura.
-3. **Pagine 28–45 — Costo ambientale del cibo**: suolo, mangimi, cereali, soia, deforestazione, biodiversità, clima, energia, refrigerazione, trasporti, imballaggi, deiezioni, eutrofizzazione.
-4. **Pagine 46–53 — Acqua**: impronta idrica, acqua verde/blu/grigia, scarsità locale, acqua virtuale e limiti dei confronti semplicistici.
-5. **Pagine 54–63 — Cibo, spreco e risorse**: perdite di filiera, spreco domestico, efficienza, sicurezza alimentare e fame come fenomeno multifattoriale.
-6. **Pagine 64–79 — Salute e nutrizione**: modelli onnivoro/vegetariano/vegano, salute cardiovascolare, diabete tipo 2, tumore colorettale, peso, ultraprocessati, proteine, ferro, calcio, iodio, vitamina D, omega-3 e B12.
-7. **Pagine 80–87 — Crescita, adolescenza, sport e fasi della vita**: energia, recupero, crescita, socialità e pianificazione.
-8. **Pagine 88–95 — Passare a più vegetale**: metodo Aggiungi/Sostituisci/Impara, spesa, etichette, piatti tradizionali e sostituzioni.
-9. **Pagine 96–101 — Cucina pratica**: preparazioni rappresentative, familiari e semplici, ispirate ai materiali caricati ma riscritte da zero.
-10. **Pagine 102–105 — Scuola e mensa**: procedura pratica, comunicazione con scuola/comune e pagina fotocopiabile con fac-simile.
+### V1 — 111 pagine A5 — DA CONSERVARE
+
+La versione da 111 pagine resta archiviata come base storica completa e NON deve essere cancellata o sovrascritta. La sua struttura resta utile come riferimento editoriale e per confronto durante la revisione.
+
+Struttura V1:
+1. **Pagine 1–9 — Capire prima di scegliere**.
+2. **Pagine 10–27 — Animali e sistemi produttivi**.
+3. **Pagine 28–45 — Costo ambientale del cibo**.
+4. **Pagine 46–53 — Acqua**.
+5. **Pagine 54–63 — Cibo, spreco e risorse**.
+6. **Pagine 64–79 — Salute e nutrizione**.
+7. **Pagine 80–87 — Crescita, adolescenza, sport e fasi della vita**.
+8. **Pagine 88–95 — Passare a più vegetale**.
+9. **Pagine 96–101 — Cucina pratica**.
+10. **Pagine 102–105 — Scuola e mensa**.
 11. **Pagine 106–109 — Domande, miti e pensiero critico**.
 12. **Pagina 110 — Fonti, metodo e siti di riferimento**.
 13. **Pagina 111 — Chiusura, sito, versione, sostegno e diritti**.
+
+### V2 — NUOVA DIREZIONE ATTIVA — circa 240 pagine A4
+
+La nuova baseline di sviluppo è una versione editoriale molto più ampia e matura:
+
+- obiettivo: **circa 240 pagine**, con intervallo operativo indicativo **230–250 pagine**;
+- numero finale pari per la stampa;
+- formato principale di sviluppo: **A4**;
+- corpo testo: **almeno 11 pt**, da validare con prove di leggibilità e densità reali;
+- target: 10+ fino all'adulto;
+- forte espansione degli argomenti oggi troppo brevi;
+- revisione completa di testo, impaginazione, gerarchie tipografiche, box e infografiche;
+- mantenimento dell'identità cromatica verde/crema/terra, evoluta verso una grafica più editoriale adulta.
+
+Argomenti da espandere in modo sostanziale nella V2:
+- proteine;
+- ferro;
+- calcio;
+- iodio;
+- vitamina D;
+- vitamina B12;
+- omega-3;
+- zinco;
+- fibre;
+- sport e recupero;
+- adolescenza e crescita;
+- malattie cardiovascolari;
+- diabete tipo 2;
+- tumore colorettale;
+- pressione e colesterolo;
+- microbiota;
+- ultraprocessati;
+- acqua e impronta idrica;
+- suolo e uso delle colture;
+- mangimi e soia;
+- energia e catena del freddo;
+- trasporti;
+- imballaggi;
+- spreco alimentare;
+- biodiversità;
+- deiezioni ed eutrofizzazione;
+- antibiotico-resistenza;
+- mense scolastiche;
+- transizione pratica da onnivoro a più vegetale / vegetariano / vegano.
 
 ## 4. Materiali caricati integrati come base editoriale
 
@@ -90,37 +139,47 @@ Punti consolidati:
 
 La sezione pratica usa il manuale SSNV 2022 come base operativa ma il quadro normativo viene ricondotto alle fonti ufficiali nazionali. Il riferimento centrale è il DM 28 ottobre 2021 / GU n.269 dell'11 novembre 2021 sulle linee di indirizzo nazionali per la ristorazione scolastica. La prescrizione medica riguarda le esigenze cliniche e non le diete per fini etici/culturali/religiosi.
 
-Il manuale contiene una **pagina fotocopiabile autonoma** con fac-simile di richiesta, campi compilabili e checklist.
+La V2 deve conservare e ampliare una **pagina fotocopiabile autonoma** con fac-simile di richiesta, campi compilabili e checklist, eventualmente trasformandola in una doppia pagina A4 molto pratica.
 
-## 7. Grafica
+## 7. Grafica e impaginazione
 
-- Formato A5 verticale.
-- Identità verde/crema/terra con blu e accenti caldi controllati.
-- Corpo testo compatto ma leggibile, circa 8,8 pt nel master corrente.
-- Scene vettoriali editoriali mature e infografiche pulite.
-- Ambienti: campagna, colture, stalle, silos, acqua, pesca, trasporti, città, scuola, cucina, tavola.
-- Niente estetica da libro per bambini delle elementari.
+### V1 storica
+- A5 verticale;
+- corpo testo circa 8,8 pt;
+- identità verde/crema/terra.
+
+### V2 attiva
+- **A4** come formato di sviluppo principale;
+- **corpo testo minimo 11 pt**, con verifica oggettiva di leggibilità;
+- griglia editoriale più matura e controllata;
+- maggiore densità informativa ma senza comprimere gli argomenti;
+- gerarchia tipografica più professionale;
+- controllo rigoroso di sovrapposizioni, margini, rientri e spaziature;
+- illustrazioni in stile **fumetto/editoriale adulto**, non infantile;
+- colori **pastello delicati** e coerenti;
+- ambienti visivamente più ricchi: campagna, colture, stalle, acqua, pesca, trasporti, città, scuola, cucina, tavola;
+- copertina da ridisegnare in chiave più elegante e adulta mantenendo l'identità del progetto;
+- le immagini di riferimento fornite dall'utente sono ispirazione di atmosfera/stile, non materiale da copiare.
 
 ## 8. PDF — distribuzione e protezione
 
-### Copia pubblica
+### V1 pubblica
 - 111 pagine A5;
 - apertura libera senza password utente;
 - stampa libera;
 - accessibilità / estrazione testo consentita;
 - modifica e assemblaggio limitati;
-- AES-128, scelta per compatibilità con Anteprima su macOS Big Sur;
-- owner password privata e mai salvata nel repository pubblico.
+- AES-128 per compatibilità con Anteprima su macOS Big Sur.
 
-### Master stampa
+### V1 master stampa
 - 111 pagine A5;
 - non cifrato;
-- da mantenere privato;
-- base per eventuale preflight Amazon KDP / tipografia.
+- da mantenere privato.
 
-### Identificazione
-- Edizione ufficiale 2026.1;
-- SHA-256 della copia pubblica corrente: `6126c5254df948b73a628b75341f3617504ec23e2aa26e238d450e122dadc91e`.
+### V2 futura
+- sarà prodotta come file separato e non sostituirà la V1;
+- dovrà avere una copia pubblica protetta e un master stampa non cifrato;
+- prima della pubblicazione dovrà essere sottoposta a QA completo pagina per pagina.
 
 ## 9. Distribuzione e diritti
 
@@ -131,12 +190,6 @@ Obiettivo: massima diffusione della copia ufficiale senza favorire versioni alte
 - condivisione integrale e senza modifiche per finalità personali, educative e informative non commerciali;
 - nessuna redistribuzione di versioni modificate o uso commerciale senza autorizzazione;
 - futura copia cartacea a pagamento possibile, mantenendo gratuito il PDF digitale.
-
-Formula editoriale di riferimento:
-
-> © 2026 Animali, cibo e scelte — Cristian Bertoli. Questo documento può essere scaricato, stampato e condiviso gratuitamente, integralmente e senza modifiche, per finalità personali, educative e informative non commerciali. Non è consentito modificare, alterare, estrarre e redistribuire parti del documento, creare versioni derivate o utilizzarlo a fini commerciali senza autorizzazione.
-
-La formulazione legale definitiva può essere ricontrollata prima della distribuzione commerciale.
 
 ## 10. Sostegno al progetto
 
@@ -149,49 +202,71 @@ Il PDF digitale resta gratuito. Il sito contiene la sezione **Sostieni il proget
 3. FAO — sistemi alimentari, pesca, risorse e sicurezza alimentare.
 4. Società Scientifica di Nutrizione Vegetariana — nutrizione vegetariana e vegana.
 
-## 12. Sito web
+## 12. Sito web e multilingua
 
 Stato:
 - GitHub Pages attivo;
 - home responsive;
-- 6 lingue principali + elenco esteso ricercabile;
-- sito aggiornato alla descrizione del **manuale da 111 pagine**;
+- **circa 35 lingue già predisposte nel selettore**;
+- 6 lingue principali evidenziate + elenco esteso ricercabile;
 - sezione download predisposta;
-- sezione fonti e sostegno presenti;
-- PDF non ancora caricato nel repository pubblico;
-- 3 slot hero predisposti, immagini originali non ancora inserite.
+- sezione fonti e sostegno presenti.
 
-Sviluppi successivi:
-- caricare PDF pubblico e attivare download;
-- pubblicare hash e bibliografia estesa;
-- foto hero;
-- dominio personalizzato;
-- SEO, sitemap, canonical, dati strutturati e Search Console;
-- traduzioni progressive;
-- preflight KDP e valutazione prezzo della copia cartacea.
+Obiettivo multilingua:
+- il progetto completo deve essere redatto **almeno nelle 35 lingue già previste**;
+- prima si congela la master italiana V2;
+- poi traduzioni progressive con revisione linguistica;
+- le lingue RTL devono avere impaginazione nativa RTL;
+- nessun testo importante nelle immagini.
 
-## 13. QA del manuale 111
+## 13. Accessibilità — roadmap futura, NON ancora da implementare
 
-Verifiche eseguite sul master corrente:
-- 111/111 pagine A5;
-- font incorporati;
-- 6 test strutturali passati;
-- rendering completo delle 111 pagine;
-- confronto master stampa vs copia protetta: 111 pagine confrontate, 0 pagine graficamente differenti;
-- nessuna pagina quasi vuota rilevata;
-- testo estraibile dalla copia pubblica;
-- circa 18.391 parole nel PDF estratto.
+Le seguenti sono idee da conservare per una fase successiva del sito e dell'edizione digitale:
 
-## 14. Regola di sicurezza del repository
+- una **traccia audio per ogni capitolo** del manuale;
+- introduzione audio generale al progetto;
+- audio pensato soprattutto per utenti ciechi o ipovedenti;
+- trascrizione testuale completa per ogni audio, utile anche a utenti sordi o ipoacusici;
+- PDF accessibile/taggato, con ordine di lettura corretto, titoli strutturati, alt text per immagini e infografiche e compatibilità screen reader;
+- sezione **Accessibilità** dedicata sul sito;
+- navigazione da tastiera, buon contrasto, dimensioni leggibili;
+- Braille come idea editoriale futura da valutare con servizi/stamperie specializzati, non come funzione web immediata.
+
+Queste funzioni restano in roadmap e NON devono rallentare la revisione editoriale V2.
+
+## 14. Amazon / stampa
+
+- La V2 deve essere progettata come prodotto editoriale serio e stampabile.
+- Il progetto può preparare file interni, copertina completa, bleed, margini, dorso, frontespizio, note legali e preflight.
+- L'upload finale su Amazon KDP viene eseguito dall'account dell'autore.
+- Il PDF digitale resta gratuito anche se viene pubblicata una copia cartacea a pagamento.
+
+## 15. QA
+
+La V2 richiede una revisione completa e non eredita automaticamente il QA della V1.
+
+Prima della pubblicazione V2:
+- controllo pagina per pagina;
+- controllo sovrapposizioni e testi tagliati;
+- verifica font e corpo minimo 11 pt;
+- controllo coerenza immagini;
+- controllo accessibilità minima del PDF;
+- verifica scientifica finale delle sezioni ampliate;
+- confronto master stampa / copia pubblica;
+- verifica su Anteprima macOS e browser PDF;
+- generazione hash SHA-256.
+
+## 16. Regola di sicurezza del repository
 
 Il repository `animali-cibo-scelte` contiene solo materiali pubblicabili del progetto. Non modificare né usare `braincore`, `whisper-locale-android` o altri repository per questa pubblicazione. Password proprietario, chiavi e segreti non devono essere salvati nel repository pubblico.
 
-## 15. Fonte di verità
+## 17. Fonte di verità
 
-La direzione ufficiale è ora il **manuale da 111 pagine**. I precedenti progetti da 20 e 72 pagine restano solo come cronologia editoriale.
+La direzione di sviluppo attiva è ora la **V2 estesa da circa 240 pagine A4**, mentre la **V1 da 111 pagine A5 resta preservata** come versione storica/base e non va cancellata.
 
 Documenti correnti:
 - `docs/SCHEDA_MADRE_PROGETTO.md`
+- `docs/CHECKPOINT_V2_240P_ACCESSIBILITA_2026-09-05.md`
 - `docs/BIBLIOGRAFIA_MASTER_2026.md`
 - `docs/superpowers/specs/2026-09-05-manuale-111-design.md`
 - `docs/superpowers/plans/2026-09-05-manuale-111-plan.md`
