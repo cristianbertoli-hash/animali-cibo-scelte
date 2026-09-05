@@ -1,16 +1,14 @@
 (() => {
-  const languageButtons = [...document.querySelectorAll('.language-button')];
+  const featuredButtons = [...document.querySelectorAll('.language-button')];
+  const allLanguageButtons = [...document.querySelectorAll('.language-option')];
+  const languageButtons = [...featuredButtons, ...allLanguageButtons];
   const toast = document.getElementById('toast');
   const download = document.getElementById('download-pdf');
   const backgrounds = [...document.querySelectorAll('.hero-bg')];
-
-  const languageMessages = {
-    en: 'English version coming soon.',
-    es: 'La versión en español llegará después del master italiano.',
-    fr: 'La version française arrivera après le master italien.',
-    de: 'Die deutsche Version folgt nach dem italienischen Master.',
-    pt: 'A versão em português chegará depois do master italiano.'
-  };
+  const toggleLanguages = document.getElementById('toggle-languages');
+  const languageBrowser = document.getElementById('language-browser');
+  const languageSearch = document.getElementById('language-search');
+  const languageEmpty = document.getElementById('language-empty');
 
   let toastTimer;
   const showToast = (message) => {
@@ -21,23 +19,60 @@
     toastTimer = setTimeout(() => toast.classList.remove('show'), 2600);
   };
 
-  languageButtons.forEach((button) => {
-    button.addEventListener('click', () => {
-      const lang = button.dataset.lang;
-      languageButtons.forEach((item) => {
-        const active = item === button;
-        item.classList.toggle('active', active);
-        item.setAttribute('aria-pressed', String(active));
-      });
+  const normalize = (value) => (value || '')
+    .toLocaleLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .trim();
 
-      if (lang === 'it') {
-        document.documentElement.lang = 'it';
-        showToast('Italiano selezionato. Il PDF sarà disponibile qui appena pubblicato.');
-      } else {
-        showToast(languageMessages[lang] || 'Versione in preparazione.');
+  const languageMessage = (button) => {
+    const lang = button.dataset.lang;
+    const label = button.dataset.label || button.querySelector('span')?.textContent || 'Questa lingua';
+    return lang === 'it'
+      ? 'Italiano selezionato. Il PDF sarà disponibile qui appena pubblicato.'
+      : `${label}: versione in preparazione.`;
+  };
+
+  const selectLanguage = (button) => {
+    const lang = button.dataset.lang;
+    featuredButtons.forEach((item) => {
+      const active = item.dataset.lang === lang;
+      item.classList.toggle('active', active);
+      item.setAttribute('aria-pressed', String(active));
+    });
+    if (lang === 'it') document.documentElement.lang = 'it';
+    showToast(languageMessage(button));
+  };
+
+  languageButtons.forEach((button) => {
+    button.addEventListener('click', () => selectLanguage(button));
+  });
+
+  if (toggleLanguages && languageBrowser) {
+    toggleLanguages.addEventListener('click', () => {
+      const opening = languageBrowser.hidden;
+      languageBrowser.hidden = !opening;
+      toggleLanguages.setAttribute('aria-expanded', String(opening));
+      toggleLanguages.textContent = opening ? 'Chiudi elenco' : 'Tutte le lingue';
+      if (opening && languageSearch) {
+        window.setTimeout(() => languageSearch.focus(), 50);
       }
     });
-  });
+  }
+
+  if (languageSearch) {
+    languageSearch.addEventListener('input', () => {
+      const query = normalize(languageSearch.value);
+      let visible = 0;
+      allLanguageButtons.forEach((button) => {
+        const haystack = normalize(`${button.dataset.label} ${button.textContent}`);
+        const show = !query || haystack.includes(query);
+        button.classList.toggle('is-hidden', !show);
+        if (show) visible += 1;
+      });
+      if (languageEmpty) languageEmpty.hidden = visible !== 0;
+    });
+  }
 
   if (download) {
     download.addEventListener('click', (event) => {
@@ -53,7 +88,7 @@
   if (backgrounds.length) {
     let current = 0;
     backgrounds[current].classList.add('is-active');
-    setInterval(() => {
+    window.setInterval(() => {
       backgrounds[current].classList.remove('is-active');
       current = (current + 1) % backgrounds.length;
       backgrounds[current].classList.add('is-active');
