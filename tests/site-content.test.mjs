@@ -4,10 +4,15 @@ import { readFile } from 'node:fs/promises';
 
 const html = await readFile(new URL('../index.html', import.meta.url), 'utf8');
 
-test('home presents the project as a 72-page illustrated manual', () => {
+test('home presents the project as a 111-page illustrated manual', () => {
   assert.match(html, /manuale illustrato/i);
-  assert.match(html, /72 pagine/i);
+  assert.match(html, /111 pagine/i);
   assert.doesNotMatch(html, /opuscolo|libretto/i);
+});
+
+test('home includes the practical school-canteen scope', () => {
+  assert.match(html, /mensa scolastica/i);
+  assert.match(html, /pagina fotocopiabile/i);
 });
 
 test('home includes a support section that keeps the digital manual free', () => {
